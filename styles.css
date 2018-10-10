@@ -1,0 +1,51 @@
+#footerContainer {
+    background-color:#aaaaaa;
+    padding: 10px;
+
+}
+
+.footer h3{
+    text-align: center;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer li{
+    margin-bottom: 10px;
+}
+
+#footer {
+    width: 100%;
+    overflow: hidden; /* contain floated elements */
+}
+
+#footerLeft {
+    float: left;
+    width: 25%;
+}
+
+#footerCenter {
+    float: left;
+    width: 45%;
+}
+
+#footerRight {
+    float: left;
+    text-align: center;
+    width: 30%;
+}
+
+#credit {
+    background-color:#FFFFFF;
+    text-align:center;
+    padding:10px;
+}
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  #footerLeft, #footerCenter, #footerRight {
+    width: 100%;
+  }
+}
